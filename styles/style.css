@@ -1,4 +1,70 @@
-input{
-    background-color: chocolate;
+@charset    "UTF-8";
+
+body{
+    background-color: antiquewhite;
+    display: inline-flex;
+    padding: 42px 340px 48px 340px;
+    flex-direction: column;
+    align-items: center;
+    gap: 33px;
+}
+
+.titulo{
+    width: 700px;
+    height: 102px;
+    flex-shrink: 0;
+    display: flex;
+    width: 700px;
+    height: 102px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-family: Monomaniac One;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 700px;
+    height: 101.717px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #FFF;
+    mix-blend-mode: hard-light;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+.conteudo{
+    width: 901px;
+    height: 38px;
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    width: 1104px;
+    height: 330px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #FEF3F3;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
     
+    
+    
+}
+
+.botao{
+    width: 250px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #D9D9D9;
+
 }
