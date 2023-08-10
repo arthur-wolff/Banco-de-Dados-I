@@ -1,0 +1,18 @@
+{
+  "name": "banco-de-dados-i-main",
+  "version": "1.0.0",
+  "description": "Repositorio destinado para o armazenamento do projeto prático desenvolvido no curso de Banco de Dados I (CSI 440)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql2": "^3.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
