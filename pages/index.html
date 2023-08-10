@@ -11,53 +11,44 @@
     <header class="cabecalho">
         <h1 class="titulo_cabecalho">MANUAL DOS MONSTROS</h1>
         <img class="img_cabecalho" src="../assets/Logo.svg" alt="Logo dragão">
-        
-        
     </header>
     <div class="linha_cabecalho">  </div>
-    
     
     <main class="conteudo">
         <section class="barra_pesquisa">
             <div class="pesquisa_texto">
-                <h2>Digite a informação a ser pesquisada: </h2>
+                <h2>Insira o nome da criatura: </h2>
                 
             </div>
 
             <form action="">
                 <div>
-                    <input class="pesquisa_input" type="text" name="" id = "pesquisa">
+                    <input class="pesquisa_input" type="text" name="" id = "pesquisa" placeholder="Digite o nome da criatura...">
                     <label for="pesquisa"></label>
                 </div>
 
             </form>
+            <section class="botao_pesquisa">
+                <div>
+                    <button class="botao" id="botao_pesq">Pesquisar</button>
+                </div>
                 
-            
-            
+            </section>
                     
         </section>
-        
-        <section class="botao_pesquisa">
-            <div>
-                <button class="botao">Pesquisar</button>
-            </div>
-            
-        </section>
-            
         <section class="resultado_pesquisa">
             <div class="titulo_resultado">
                 <h2>Resultado da pesquisa: </h2>
             </div>
-            <div class="conteudo_resultado">
+            <div class="conteudo_resultado" id="resultado_pesquisa">
 
             </div>
             
         </section>
-        
-
     </main>
     <footer class="rodape">
         <a class="link_rodape" href="./atribuicoes.html" target="_self">Clique aqui para ver os recursos utilizados</a>
-    </footer>    
+    </footer>
+    <script src="..\js\script.js"></script>
 </body>
 </html>
