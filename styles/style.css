@@ -63,10 +63,12 @@ body {
     justify-content: space-around;
 }
 .pesquisa_texto{
+    border: none;
     font-family: 'Monomaniac One', sans-serif;
     font-weight: 400;
     font-size: 32px;
     color: black;
+    background-color: transparent;
     line-height: normal;
 }
 
@@ -141,7 +143,7 @@ body {
     flex-shrink: 0;
     margin-left: 36px;
     margin-right: 36px;
-    width: 1800px;
+    width: 1300px;
     height: 587px;
     border-radius: 20px;
     background: rgba(242, 237, 228, 0.40);
