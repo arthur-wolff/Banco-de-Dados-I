@@ -6,13 +6,14 @@ const   connection = mysql.connect({
     host: 'localhost',
     user: 'root',
     password: 'root',
-    database: 'bd_empresa'
+    database: 'mydb'
 });
 
 const app = express();
 app.use(cors());
+
 app.get('/', (req, res) => {
-    connection.query('SELECT * FROM funcionario', function (err, result, fields) {
+    connection.query('SELECT * FROM criatura', function (err, result, fields) {
         
         res.send(result);
     });
