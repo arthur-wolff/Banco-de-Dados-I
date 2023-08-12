@@ -4,7 +4,7 @@
   "description": "Repositorio destinado para o armazenamento do projeto prático desenvolvido no curso de Banco de Dados I (CSI 440)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
   "author": "",
   "license": "ISC",
