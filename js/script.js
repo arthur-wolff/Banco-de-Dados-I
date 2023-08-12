@@ -1,16 +1,50 @@
-// Exbir resultado da pesquisa
-const pesquisa = document.querySelector('#resultado_pesquisa')
+//Receber pesquisa
 
+const btn = document.querySelector('#botao_pesq');
 
-async function resultado_pesquisa (){
-    const retorno = await fetch('http://localhost:3030');
-    const query = await retorno.json();
+btn.addEventListener('click',function (){
+    const pesquisar = getPesquisa();
+    sendPesquisa(pesquisar);
+    
+});
+
+function getPesquisa() {
+    const inputPesquisa = document.querySelector('#nome_pesquisa');
+
+    const nome_pesquisado = {
+        pesquisa: inputPesquisa.value
+    }
+
+    return nome_pesquisado
+
+}
+
+async function sendPesquisa (nome_pesquisado) {
+    const resposta = await fetch('http://localhost:3030',{
+        method: 'POST',
+        headers: {
+            Accept: 'application/json',
+            'Content-Type': 'application/json'    
+        },
+        body: JSON.stringify(nome_pesquisado)
+    });
+
+    const query = await resposta.json();
     console.log(query);
     exibe_dados(query);
+    limpaCampo();
+};
+
+function    limpaCampo () {
+    document.querySelector('#nome_pesquisa').value = '';
 }
 
 
+// Exbir resultado da pesquisa
+const pesquisa = document.querySelector('#resultado_pesquisa')
+
 function    exibe_dados (criaturas){
+    pesquisa.innerHTML = '';
     criaturas.forEach(criatura => {
         const criaturaHtml = 
         `
@@ -38,4 +72,4 @@ function    exibe_dados (criaturas){
     });
 };
 
-resultado_pesquisa();
+
