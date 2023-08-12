@@ -13,7 +13,7 @@ async function resultado_pesquisa (){
 function    exibe_dados (dados){
     dados.forEach(funcionario => {
         const dadosHtml = `<div>
-        <h3>${funcionario.pnome} ${funcionario.minicial} ${funcionario.unome}</h3> 
+        <h3>${funcionario.NomeCriatura} ${funcionario.minicial} ${funcionario.unome}</h3> 
         <p> 
             cpf: <strong>${funcionario.cpf}</strong>
             Salario: <strong>${funcionario.salario}</strong>
