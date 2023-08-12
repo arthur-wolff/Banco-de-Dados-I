@@ -27,7 +27,7 @@ CREATE TABLE IF NOT EXISTS `manual_dos_monstros`.`Caracteristicas` (
   `idCaracteristicas` INT NOT NULL,
   `Pericias` VARCHAR(100) NULL,
   `Sentidos` VARCHAR(100) NULL,
-  `Idiomas` VARCHAR(45) NULL,
+  `Idiomas` VARCHAR(100) NULL,
   `NivelDesafio` VARCHAR(45) NOT NULL,
   PRIMARY KEY (`idCaracteristicas`))
 ENGINE = InnoDB;

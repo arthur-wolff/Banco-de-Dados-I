@@ -11,7 +11,26 @@ values
 ('8', '15', '5d8', '9m'),
 ('9', '12', '2d6-2', '9m'),
 ('10', '13', '7d10+21', '12m'),
-('11', '13', '10d10+30', '12m');
+('11', '13', '10d10+30', '12m'),
+('12', '12', '1d4+1', '6m, escalada 6m'),
+('13', '14', '4d10+4', '9m, escalada 9m'),
+('14', '16', '5d8+5', '9m'),
+('15', '18', '2d8+2', '9m'),
+('16', '12', '5d8', '9m'),
+('17', '15', '3d8', '9m'),
+('18', '15', '13d8+13', '9m'),
+('19', '12', '6d4+6', '12m'),
+('20', '15', '8d8+16', '6m'),
+('21', '11', '9d8+18', '9m, 12m (lobo)'),
+('22', '11', '18d8+54', '9m, 12m (urso)'),
+('23', '12', '16d8+48', '9m, 12m (tigre)'),
+('24', '10', '12d8+24', '9m, 12m (javali)'),
+('25', '12', '6d8+6', '9m'),
+('26', '14', '12d12+60', '9m'),
+('27', '13', '2d8+4', '9m'),
+('28', '8', '3d8+9', '6m'),
+('29', '12', '9d8+18', '4,5m'),
+('30', '19', '19d12+133', '12 m, escalada 12 m, voo 24 m');
 
 
 insert into caracteristicas
@@ -27,13 +46,41 @@ values
  ('5', 'Furtividade +9, Percepção +7', 'visão no escuro 36 m, Percepção passiva 17',
  'os idiomas que conhecia em vida', '13 (10.000 XP)'),
  ('6','-', 'visão no escuro 18 m, Percepção passiva 11','-','1/2 (100xp)'),
- ('7','Enganação +4, Furtividade +5, Intuição +3, Persuasão +4', 'visão no escuro 18 m, Percepção passiva 11',
- 'Infernal, Comum','1 (200 XP)'),
+ ('7','Enganação +4, Furtividade +5, Intuição +3, Persuasão +4', 
+ 'visão no escuro 18 m, Percepção passiva 11','Infernal, Comum','1 (200 XP)'),
 ('8', '-', 'visão no escuro 18 m, Percepção passiva 10', 'Gnoll', '1/2 (100 XP)'),
 ('9', '-', 'visão no escuro 18 m, Percepção passiva 8', 'Comum, Dracônico', '1/8 (25 XP)'),
 ('10', 'Percepção +3', 'visão no escuro 18 m, Percepção passiva 13', '-', '3 (700 XP)'),
-('11', '-', 'visão no escuro 18 m, Percepção passiva 11', '-', '3 (700 XP)');
- 
+('11', '-', 'visão no escuro 18 m, Percepção passiva 11', '-', '3 (700 XP)'),
+('12', 'Furtividade +4', 'visão no escuro 18 m, Percepção passiva 10', '-', '0 (100 XP)'),
+('13', 'Furtividade +7', 'percepção às cegas 3 m, visão no escuro 18 m, Percepção passiva 10', '-', '1 (200 XP)'),
+('14', 'Furtividade +6, Sobrevivência +2', 'visão no escuro 18 m, Percepção passiva 10', 'Comum,Goblin', '1 (200 XP)'),
+('15', '-', 'visão no escuro 18 m, Percepção passiva 10', 'Comum,Goblin', '1 (200 XP)'),
+('16', '-', 'visão no escuro 18 m, Percepção passiva 10', 'Comum', '1 (200 XP)'),
+('17', 'Furtividade +4, Percepção +2', 'visão no escuro 36 m, Percepção passiva 12', 'Élfico, Subcomum', '1/4 (50 XP)'),
+('18', 'Arcanismo +7, Enganação +6, Furtividade +4, Intuição +6, Percepção +6, Persuasão +6', 
+'visão no escuro 36 m, Percepção passiva 16', 'Dialeto Subterrâneo, Subcomum, telepatia 36 m', '7 (2.900 XP)'),
+('19', 'Furtividade +4, Percepção +2', 'percepção às cegas 18 m (cego além desse raio), Percepção passiva 12',
+'compreende o Dialeto Subterrâneo, mas não pode falar, telepatia 18 m', '2 (450 XP)'),
+('20', '-', 'visão no escuro 18 m, Percepção passiva 9', '-', '3 (700 XP)'),
+('21', 'Furtividade +3, Percepção +4', 'Percepção passiva 14', 'Comum', '3 (700 XP)'),
+('22', 'Percepção +7', 'Percepção passiva 17', 'Comum', '5 (1.800 XP)'),
+('23', 'Furtividade +4, Percepção +5', 'visão no escuro 18 m (forma de tigre apenas), Percepção passiva 15',
+ 'Comum', '4 (1.100 XP)'),
+('24', 'Percepção +2', 'Percepção passiva 12', 'Comum', '4 (1.100 XP)'),
+('25', 'Furtividade +4, Percepção +2', 'visão no escuro 18 m (forma de rato apenas),Percepção passiva 12', 
+'Comum', '2 (450 XP)'),
+('26', '-', 'Percepção passiva 8', 'Gigante', '6 (2.300 XP)'),
+('27', '-', 'visão no escuro 18 m, Percepção passiva 9', 'compreende todos os idiomas que conhecia em vida, mas
+não pode falar', '1/4 (50 XP)'),
+('28', 'Sab +0', 'visão no escuro 18 m, Percepção passiva 8', 'compreende os idiomas que conhecia em vida, mas não
+pode falar', '1/4 (50 XP)'),
+('29', 'Furtividade +5', 'visão no escuro 18 m, Percepção passiva 11', '-', '2 (450 XP)'),
+('30', 'Furtividade +6, Percepção +13', 'percepção às cegas 18 m, visão no escuro 36 m,
+Percepção passiva 23', 'Comum, Dracônico', '17 (18.000 XP)');
+
+
+
  
 
 insert into habilidades
@@ -49,7 +96,27 @@ values
 ('8', '14(+2)','12(+1)','11(0)','6(-2)','10(0)','7(-2)'),
 ('9', '7(-2)','15(+2)','9(-1)','8(-1)','7(-2)','8(-1)'),
 ('10', '20(+5)','12(+1)','17(+3)','3(-4)','12(+1)','7(-2)'),
-('11', '18(+4)','15(+2)','16(+3)','6(-2)','12(+1)','8(-1)');
+('11', '18(+4)','15(+2)','16(+3)','6(-2)','12(+1)','8(-1)'),
+('12', '2(-4)','14(+2)','8(-1)','1(-5)','10(0)','2(-4)'),
+('13', '14(+2)','16(+3)','12(+1)','2(-4)','11(0)','4(-3)'),
+('14', '15(+2)','14(+2)','13(+1)','8(-1)','11(0)','9(-1)'),
+('15', '13(+1)','12(+1)','12(+1)','10(0)','10(0)','9(-1)'),
+('16', '13(+1)','15(+2)','10(0)','7(-2)','10(0)','6(-2)'),
+('17', '10(0)','14(+2)','10(0)','11(0)','11(0)','12(+1)'),
+('18', '11(0)','12(+1)','12(+1)','19(+4)','17(+3)','17(+3)'),
+('19', '6(-2)','14(+2)','13(+1)','13(+1)','11(0)','10(0)'),
+('20', '16(+3)','8(-1)','15(+2)','2(-4)','8(-1)','7(-2)'),
+('21', '15(+2)','13(+1)','14(+2)','10(0)','11(0)','10(0)'),
+('22', '19(+4)','10(+0)','17(+3)','11(0)','12(+1)','12(+1)'),
+('23', '17(+3)','15(+2)','16(+3)','10(0)','13(+1)','11(0)'),
+('24', '17(+3)','10(0)','15(+2)','10(0)','11(0)','8(-1)'),
+('25', '10(0)','15(+2)','12(+1)','11(0)','10(0)','8(-1)'),
+('26', '22(+6)','11(0)','20(+5)','8(-1)','6(-2)','10(0)'),
+('27', '10(0)','14(+2)','15(+2)','6(-2)','8(-1)','5(-3)'),
+('28', '13(+1)','6(-2)','16(+3)','3(-4)','6(-2)','5(-3)'),
+('29', '17(+3)','12(+1)','15(+2)','5(-3)','13(+1)','8(-1)'),
+('30', '27(+8)','10(0)','25(+7)','16(+3)','13(+1)','21(+5)');
+
 
 
 
@@ -66,12 +133,23 @@ values
 ('Gnoll', 'Humanoide','Média','caótico e mau','8','8','8'),
 ('Kobold', 'Humanoide','Pequena','leal e mau','9','9','9'),
 ('Urso Coruja', 'Monstruosidade','Grande,','imparcial','10','10','10'),
-('Pantera Deslocadora', 'Monstruosidade','Grande,','leal e mau','11','11','11');
-
-
-
-
-
-
-
-
+('Pantera Deslocadora', 'Monstruosidade','Grande,','leal e mau','11','11','11'),
+('Aranha', 'Besta','Miúda','imparcial','12','12','12'),
+('Aranha Gigante', 'Besta','Grande','imparcial','13','13','13'),
+('Bugbear', 'Humanoide','Média','caótico e mau','14','14','14'),
+('Hobgoblin', 'Humanoide','Média','leal e mau','15','15','15'),
+('Carniçal', 'Morto-vivo','Média','caótico e mau','16','16','16'),
+('Drow', 'Humanoide','Média','neutro e mau','17','17','17'),
+('Devorador de Mentes', 'Aberração','Média','leal e mau','18','18','18'),
+('Devorador de Intelecto', 'Aberração','Miúda','leal e mau','19','19','19'),
+('Basilisco', 'Monstruosidade','Média','imparcial','20','20','20'),
+('Lobisomem', 'Humanoide','Média','caótico e mau','21','21','21'),
+('Homem urso', 'Humanoide','Média','neutro e bom','22','22','22'),
+('Homem tigre', 'Humanoide','Média','neutro','23','23','23'),
+('Homem javali', 'Humanoide','Média','neutro e mau','24','24','24'),
+('Homem rato', 'Humanoide','Média','leal e mau','25','25','25'),
+('Ciclope', 'Gigante','Enorme','caótico e neutro','26','26','26'),
+('Esqueleto', 'Morto-vivo','Média','leal e mau','27','27','27'),
+('Zumbi', 'Morto-vivo','Média','neutro e mau','28','28','28'),
+('Mimico', 'Monstruosidade','Média','neutro','29','29','29'),
+('Dragão Vermelho Adulto', 'Dragão','Enorme','caótico e mau','30','30','30');
