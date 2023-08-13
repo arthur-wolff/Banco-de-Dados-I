@@ -1,0 +1,30 @@
+1. Goblin
+2. Observador
+3. Cubo Gelatinoso
+4. Harpia
+5. Vampiro
+6. Cocatriz
+7. Diabrete
+8. Gnoll
+9. Kobold
+10. Urso Coruja
+11. Pantera Deslocadora
+12. Aranha
+13. Aranha Gigante
+14. Bugbear
+15. Hobgoblin
+16. Carniçal
+17. Drow
+18. Devorador de Mentes
+19. Devorador de Intelecto
+20. Basilisco
+21. Lobisomem
+22. Homem urso
+23. Homem tigre
+24. Homem javali
+25. Homem rato
+26. Ciclope
+27. Esqueleto
+28. Zumbi
+29. Mimico
+30. Dragão Vermelho Adulto
