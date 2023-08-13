@@ -21,6 +21,7 @@ Os dados armazenados foram:
 
 ![image](https://github.com/arthur-wolff/Banco-de-Dados-I/assets/106398646/bc22ccf2-0d7d-4ac6-90e5-1139fd11855b)
 
+## Regras de Negocio
 Onde: 
   1. Cada monstro é identificado por seu nome;
   2. Caso o monstro não possua o atributo em questão deve ser utilizado “-” no preenchimento do dado; 
