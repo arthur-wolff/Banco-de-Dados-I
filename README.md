@@ -77,7 +77,9 @@ Para a execução do programa é necessário:
 Abra a pagina ```index.html```
 
 ## Realize a Busca:
-Digite o nome da criatura a ser buscada, levando em conta aquelas que estão povoando o banco de dados.
+Digite o nome da criatura a ser buscada, levando em conta aquelas que estão povoando o banco de dados: 
+
+[Lista de criaturas que povoam o Banco de Dados](https://github.com/arthur-wolff/Banco-de-Dados-I/blob/4ac8a1480aff1780889aafd84eb5b972c06bc8c7/Criaturas%20no%20Banco%20de%20dados.txt)
 
 ---
 
