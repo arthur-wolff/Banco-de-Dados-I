@@ -8,7 +8,7 @@ Repositorio destinado para o armazenamento do projeto prático desenvolvido no c
 
 1. [Descrição do Problema](https://github.com/arthur-wolff/Banco-de-Dados-I/tree/main#descri%C3%A7%C3%A3o-do-problema)
 2. [Criação do Banco de Dados](https://github.com/arthur-wolff/Banco-de-Dados-I/tree/main#cria%C3%A7%C3%A3o-do-banco-de-dados)
-3. [Execução da Aplicação](https://github.com/arthur-wolff/Banco-de-Dados-I/tree/main#execu%C3%A7%C3%A3o)
+3. [Execução da Aplicação](https://github.com/arthur-wolff/Banco-de-Dados-I/tree/main#execu%C3%A7%C3%A3o-da-aplica%C3%A7%C3%A3o)
 
 
 ---
