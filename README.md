@@ -17,7 +17,7 @@ Repositorio destinado para o armazenamento do projeto prático desenvolvido no c
 
 A aplicação tem como principal objetivo auxiliar a consulta de dados básicos dos monstros descritos no Manual dos Monstros da 5 edição de Dungeons and Dragons
 
-Os dados armazenados foram:
+Os dados armazenados seguiram esse padrão:
 
 ![image](https://github.com/arthur-wolff/Banco-de-Dados-I/assets/106398646/bc22ccf2-0d7d-4ac6-90e5-1139fd11855b)
 
