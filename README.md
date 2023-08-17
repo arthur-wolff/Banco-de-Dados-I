@@ -19,7 +19,7 @@ A aplicação tem como principal objetivo auxiliar a consulta de dados básicos 
 
 Os dados armazenados seguiram esse padrão:
 
-![image](https://github.com/arthur-wolff/Banco-de-Dados-I/assets/106398646/bc22ccf2-0d7d-4ac6-90e5-1139fd11855b)
+![image](assets/Acrobat_8Hfn2Fjebu.png)
 
 ## Regras de Negocio
 Onde: 
@@ -52,12 +52,22 @@ O Banco foi populado apartir do seguinte script:
 
 [SCRIPT DE POVOAMENTO DO BANCO DE DADOS](db/Modelagens_BD_Trab_Pratico/Scripts_DB/Script_Povoar_Banco.sql)
 
-Foram adicionados um numero de 30 criaturas no banco, com intuito de testagem do projeto.
 
 ---
 
 # Execução da Aplicação:
 Para a execução do programa é necessário:
+
+## Criar/Popular o Banco:
+É necessário a criação do banco de dados a partir do [SCRIPT DE CRIAÇÂO DO BANCO DE DADOS](db/Modelagens_BD_Trab_Pratico/Scripts_DB/Script_criação_do_banco.sql)
+e também o povoamento do banco a partir do [SCRIPT DE POVOAMENTO DO BANCO DE DADOS](db/Modelagens_BD_Trab_Pratico/Scripts_DB/Script_Povoar_Banco.sql)
+
+É importante resaltar que a aplicação foi desenvolvida utilizando o MYSQL como SGBD, sendo assim ela está programada para responder a esse SGBD dado o uso da biblioteca [mysql2](https://www.npmjs.com/package/mysql2) e a seguinte configuração: 
+
+![image](assets/Code_6Ie2QTrUCx.png)
+
+Caso necessário esses campos devem ser alterados, levando em conta as configurações utilizadas na maquina.
+
 
 ## Node.js:
 É necessário a instalação do [Node.js](https://nodejs.org/en)
